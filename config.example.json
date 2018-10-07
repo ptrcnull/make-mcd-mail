@@ -1,0 +1,7 @@
+{
+  "maildir": "/var/lib/mail/Maildir",
+  "from": "any mail you sent message from",
+  "body": "body from a sent email",
+  "subject": "subject from a sent email",
+  "type": "big_ice_cream or hamburger"
+}
