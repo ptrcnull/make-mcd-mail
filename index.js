@@ -6,7 +6,7 @@ const randomstring =
   '3' + Math.random().toString(36).substr(2, 3) +
   Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 4)
 
-const path = config + '/cur/' + process.argv[2]
+const path = config.maildir + '/cur/' + process.argv[2]
 
 let mail = fs.readFileSync(path, 'utf-8')
   .replace('From: ' + config.from, 'From: "Badanie.Satysfakcji@ankieta.mcdonalds.pl" <Badanie.Satysfakcji@ankieta.mcdonalds.pl>')
