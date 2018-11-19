@@ -1,7 +1,11 @@
 {
+  "smtp": {
+    "host": "",
+    "username": "",
+    "password": ""
+  },
   "maildir": "/var/lib/mail/Maildir",
-  "from": "any mail you sent message from",
-  "body": "body from a sent email",
-  "subject": "subject from a sent email",
+  "from": "mail you sent the message from",
+  "to": "mail you receive the message from",
   "type": "big_ice_cream or hamburger"
 }
