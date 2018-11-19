@@ -1,17 +1,22 @@
 # make-mcd-mail
 
-Node.js app for replacing regular mails with free coupons from McDonalds for Poland
+**English description below**
 
-Aplikacja Node.js, która zamienia zwykłe maile w darmowe kupony do McDonalda
+Aplikacja Node.js, która generuje darmowe kupony do McDonalda
 
-**Wymagane: własny serwer mailowy, Maildir**
-
-**Setup:**
-- Move/copy config.example.json to config.json
-- Fill it with needed info
-- Run `node index.js` with a mail file name as a first argument
+**Wymagane: własny serwer mailowy bazujący na Maildir**
 
 **Konfiguracja:**
 - Przenieś/skopiuj config.example.json do config.json
 - Wypełnij go informacjami
-- Uruchom `node index.js` z nazwą pliku maila jako pierwszy argument
+- Uruchom `node index.js`
+
+
+Node.js app for generating free coupons from McDonalds for Poland
+
+**Requirements: own mailserver based on Maildir**
+
+**Setup:**
+- Move/copy config.example.json to config.json
+- Fill it with needed info
+- Run `node index.js`
