@@ -18,7 +18,7 @@ sendMail().then(async () => {
     files = getFiles(path)
   }
 
-  const file = files[0]
+  const file = path + files[0]
 
   let mail = fs.readFileSync(file, 'utf8')
     .replace('From: ' + config.from, 'From: "Badanie.Satysfakcji@ankieta.mcdonalds.pl" <Badanie.Satysfakcji@ankieta.mcdonalds.pl>')
